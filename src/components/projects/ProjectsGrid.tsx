@@ -17,11 +17,11 @@ const ProjectsGrid = () => {
 
   return (
     <section className='py-5 sm:py-10 mt-5 sm:mt-10'>
-      {/* <div className='text-center'>
+      <div className='text-center'>
         <p className='font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light'>
           Projects portfolio
         </p>
-      </div> */}
+      </div>
 
       <div className='mt-10 sm:mt-16'>
         <h3
@@ -79,12 +79,11 @@ const ProjectsGrid = () => {
                                 bg-secondary-light
                                 dark:bg-ternary-dark
                                 text-primary-dark
-                                dark:text-ternary-light
+                                dark:text-ternary-light      
                                 '
               id='name'
               name='name'
               type='search'
-              // required=''
               placeholder='Search Projects'
               aria-label='Name'
             />
@@ -94,7 +93,7 @@ const ProjectsGrid = () => {
         </div>
       </div>
 
-      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 gap-10'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 gap-10 mb-24'>
         {selectProject
           ? selectProjectsByCategory.map((project) => (
               <ProjectSingle

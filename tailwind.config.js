@@ -7,11 +7,11 @@ export const theme = {
     colors: {
       'primary-light': '#F7F8FC',
       'secondary-light': '#FFFFFF',
-      'ternary-light': '#f6f7f8',
+      'ternary-light': '#C7CAE0',
 
-      'primary-dark': '#0D2438',
-      'secondary-dark': '#102D44',
-      'ternary-dark': '#1E3851',
+      'primary-dark': '#13111B',
+      'secondary-dark': '#1D1D1D',
+      'ternary-dark': '#191622',
     },
     container: {
       padding: {

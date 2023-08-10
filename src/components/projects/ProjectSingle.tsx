@@ -62,9 +62,6 @@ const ProjectSingle: React.FC<ProjectSingleProps> = ({
           src={image}
           alt='Single Project'
           style={{
-            // minWidth: '100%',
-            // maxWidth: '100%',
-            // minHeight: '270px',
             maxHeight: '270px',
           }}
           className='border-none'

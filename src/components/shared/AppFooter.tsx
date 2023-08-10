@@ -1,18 +1,44 @@
+import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
+
 function AppFooterCopyright() {
   return (
-    <div className='pt-20 sm:pt-30 pb-8 mt-20 border-t-2 border-primary-light dark:border-secondary-dark'>
+    <div className='fixed bottom-0 w-full py-4 bg-white dark:bg-ternary-dark border-t-2 border-primary-light dark:border-secondary-dark shadow-lg hover:shadow-xl'>
       <div className='font-general-regular flex justify-center items-center text-center'>
-        <div className='text-lg text-ternary-dark dark:text-ternary-light'>
-          {new Date().getFullYear()}
-          <a
-            href='https://github.com/eduardolpsss'
-            target='__blank'
-            className='hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500'
-          >
-            TypeScript React and Tailwind Portfolio
-          </a>
-          . Eduardo Pontes.
-        </div>
+        <a
+          href='https://github.com/eduardolpsss'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='mr-4'
+        >
+          <FiGithub
+            className='text-ternary-dark dark:text-ternary-light hover:text-indigo-600 dark:hover:text-indigo-300 transition'
+            size={20}
+          />
+        </a>
+        <a
+          href='https://www.linkedin.com/in/eduardolpsss/'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='mr-4'
+        >
+          <FiLinkedin
+            className='text-ternary-dark dark:text-ternary-light hover:text-indigo-600 dark:hover:text-indigo-300 transition'
+            size={20}
+          />
+        </a>
+        <a
+          href='mailto:eduardo.pontes2801@gmail.com'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <FiMail
+            className='text-ternary-dark dark:text-ternary-light hover:text-indigo-600 dark:hover:text-indigo-300 transition'
+            size={20}
+          />
+        </a>
+      </div>
+      <div className='mt-2 font-general-regular text-center text-ternary-dark dark:text-ternary-light'>
+        © {new Date().getFullYear()} Eduardo Pontes.
       </div>
     </div>
   );
