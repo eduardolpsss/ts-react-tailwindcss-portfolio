@@ -1,15 +1,15 @@
-import projectImg1 from '../images/projectsImgs/spa-ibge-react-redux.png';
-import projectImg2 from '../images/projectsImgs/desafio-supera.png';
-import projectImg3 from '../images/projectsImgs/desafio-sharenergy-2023-01.png';
-import projectImg4 from '../images/projectsImgs/vitrine_fullstackApp_python_react.png';
-import projectImg5 from '../images/projectsImgs/215158729-bfe9f66e-2516-46ff-aa86-5e8cc4d59e40.gif';
-import projectImg6 from '../images/projectsImgs/processoSeletivoHeptaCrud.png';
-import projectImg7 from '../images/projectsImgs/junit-test-java.png';
-import projectImg8 from '../images/projectsImgs/218179905-64fa07b9-4572-4e00-9f86-f8bdff573755.png';
-import projectImg9 from '../images/projectsImgs/194217315-4f02d323-348e-4399-82f9-4dffd08213ae.png';
-import projectImg10 from '../images/projectsImgs/223148461-3cc9d4db-8532-4904-91ea-f6b95d3df336.png';
-import projectImg11 from '../images/projectsImgs/194217845-73fd1b67-d60e-4b24-b0e2-3c0bbdc22a03.png';
-import projectImg12 from '../images/projectsImgs/Projeto_IA_DadosEnem.png';
+import projectImg1 from '../images/projectsImgs/ibge_spa.png';
+import projectImg2 from '../images/projectsImgs/e-commerce_and_chart.png';
+import projectImg3 from '../images/projectsImgs/programming_challenge.png';
+import projectImg4 from '../images/projectsImgs/car_showcase.png';
+import projectImg5 from '../images/projectsImgs/bootcamp_laravel.gif';
+import projectImg6 from '../images/projectsImgs/restfull_api.png';
+import projectImg7 from '../images/projectsImgs/minefield.png';
+import projectImg8 from '../images/projectsImgs/springboot_and_react_app.png';
+import projectImg9 from '../images/projectsImgs/state_office_system.png';
+import projectImg10 from '../images/projectsImgs/responsive_web_store.png';
+import projectImg11 from '../images/projectsImgs/wordle_clone.png';
+import projectImg12 from '../images/projectsImgs/projeto_ia_dados_enem.png';
 
 export interface IProjectData {
   id: number;
@@ -110,7 +110,8 @@ export const projectsData: IProjectData[] = [
     img: projectImg10,
     repoUrl: 'https://github.com/eduardolpsss/flutterWebStore',
     title: 'Responsive Web Store',
-    description: 'Organizing a responsive store using Flutter, in the future I should add more features.',
+    description:
+      'Organizing a responsive store using Flutter, in the future I should add more features.',
     category: 'Flutter',
   },
   {

@@ -24,15 +24,7 @@ const ProjectsGrid = () => {
       </div>
 
       <div className='mt-10 sm:mt-16'>
-        <h3
-          className='font-general-regular 
-                        text-center text-secondary-dark
-                        dark:text-ternary-light
-                        text-md
-                        sm:text-xl
-                        mb-3
-                        '
-        >
+        <h3 className='font-general-regular text-secondary-dark dark:text-ternary-light text-md sm:text-xl mb-3'>
           Some of my repositories, you can search by title or filter by the
           language I used.
         </h3>
@@ -93,7 +85,7 @@ const ProjectsGrid = () => {
         </div>
       </div>
 
-      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 gap-10 mb-24'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 gap-10'>
         {selectProject
           ? selectProjectsByCategory.map((project) => (
               <ProjectSingle

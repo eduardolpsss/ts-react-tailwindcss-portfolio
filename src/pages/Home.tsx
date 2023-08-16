@@ -1,5 +1,6 @@
 import ProjectsGrid from '../components/projects/ProjectsGrid';
-import AppBanner from '../components/shared/AppBanner';
+import AppBanner from '../components/AppBanner';
+import AboutMe from '../components/AboutMe';
 import { ProjectsProvider } from '../context/projectsContext';
 
 const Home = () => {
@@ -8,7 +9,8 @@ const Home = () => {
       <AppBanner></AppBanner>
 
       <ProjectsProvider>
-        <ProjectsGrid></ProjectsGrid>
+        <ProjectsGrid />
+        <AboutMe />
       </ProjectsProvider>
     </div>
   );

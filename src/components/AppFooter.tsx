@@ -9,6 +9,7 @@ function AppFooterCopyright() {
           target='_blank'
           rel='noopener noreferrer'
           className='mr-4'
+          title='GitHub'
         >
           <FiGithub
             className='text-ternary-dark dark:text-ternary-light hover:text-indigo-600 dark:hover:text-indigo-300 transition'
@@ -20,6 +21,7 @@ function AppFooterCopyright() {
           target='_blank'
           rel='noopener noreferrer'
           className='mr-4'
+          title='LinkedIn'
         >
           <FiLinkedin
             className='text-ternary-dark dark:text-ternary-light hover:text-indigo-600 dark:hover:text-indigo-300 transition'
@@ -30,6 +32,7 @@ function AppFooterCopyright() {
           href='mailto:eduardo.pontes2801@gmail.com'
           target='_blank'
           rel='noopener noreferrer'
+          title='E-mail'
         >
           <FiMail
             className='text-ternary-dark dark:text-ternary-light hover:text-indigo-600 dark:hover:text-indigo-300 transition'

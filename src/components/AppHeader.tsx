@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiMoon, FiSun } from 'react-icons/fi';
-import useThemeSwitcher from '../../hooks/useThemeSwitcher';
+import useThemeSwitcher from '../hooks/useThemeSwitcher';
 
 const AppHeader: React.FC = () => {
   const [activeTheme, setActiveTheme] = useThemeSwitcher() as [
