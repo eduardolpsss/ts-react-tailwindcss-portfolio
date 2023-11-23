@@ -10,7 +10,8 @@
           "-webkit-text-size-adjust"
         ]
       }
-    ]
+    ],
+    "no-inline-styles": "off"
   },
   "browserslist": [
     "defaults",
