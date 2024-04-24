@@ -4,8 +4,8 @@ const projectImg3 = process.env.PUBLIC_URL + '/assets/images/projectsImgs/progra
 const projectImg4 = process.env.PUBLIC_URL + '/assets/images/projectsImgs/car_showcase.png';
 const projectImg5 = process.env.PUBLIC_URL + '/assets/images/projectsImgs/bootcamp_laravel.gif';
 const projectImg6 = process.env.PUBLIC_URL + '/assets/images/projectsImgs/restfull_api.png';
-const projectImg7 = process.env.PUBLIC_URL + '/assets/images/projectsImgs/minefield.png';
-const projectImg8 = process.env.PUBLIC_URL + '/assets/images/projectsImgs/springboot_and_react_app.png';
+const projectImg7 = process.env.PUBLIC_URL + '/assets/images/projectsImgs/springboot_and_react_app.png';
+const projectImg8 = process.env.PUBLIC_URL + '/assets/images/projectsImgs/minefield.png';
 const projectImg9 = process.env.PUBLIC_URL + '/assets/images/projectsImgs/state_office_system.png';
 const projectImg10 = process.env.PUBLIC_URL + '/assets/images/projectsImgs/responsive_web_store.png';
 const projectImg11 = process.env.PUBLIC_URL + '/assets/images/projectsImgs/wordle_clone.png';
@@ -29,7 +29,7 @@ export const projectsData: IProjectData[] = [
 		title: 'IBGE SPA',
 		description:
 			'Using an advanced state management library for React to manipulate the IBGE API referring to information of municipalities in Brazil. MUI component library was also used.',
-		category: 'TypeScript | React | Redux',
+		category: 'TS | React | Redux',
 		appUrl: 'https://spaibgereactredux.netlify.app/',
 	},
 	{
@@ -38,7 +38,7 @@ export const projectsData: IProjectData[] = [
 		repoUrl: 'https://github.com/eduardolpsss/desafio-supera',
 		title: 'E-commerce and chart',
 		description: 'Responsive e-commerce with dinamic shopping cart made using features of React (useContext).',
-		category: 'TypeScript | React ',
+		category: 'TS | React ',
 		appUrl: 'https://desafio-supera.netlify.app/',
 	},
 	{
@@ -48,7 +48,7 @@ export const projectsData: IProjectData[] = [
 		title: 'Programming challenge',
 		description:
 			'Login page, users list with pagination, filters and diinamic search, select query page on the HTTP Cat API, fetch Random Dog API and a clients CRUD using MongoDB.',
-		category: 'Node.js | TypeScript | React | MongoDB ',
+		category: 'Node.js | TS | React | MongoDB ',
 	},
 	{
 		id: 4,
@@ -57,7 +57,7 @@ export const projectsData: IProjectData[] = [
 		title: 'Car showcase',
 		description:
 			'Full stack app with responsive listing, and admin page for adding, editing and deleting cars that uses JSON Web Token and Bcrypt to store sensitive information in the database.',
-		category: 'Python (Flask) | JavaScript | React | MongoDB',
+		category: 'Python (Flask) | JS | React | MongoDB',
 	},
 	{
 		id: 5,
@@ -80,19 +80,19 @@ export const projectsData: IProjectData[] = [
 	{
 		id: 7,
 		img: projectImg7,
+		repoUrl: 'https://github.com/eduardolpsss/springboot-react',
+		title: 'Spring Boot and React app',
+		description: 'Developed using Java (Spring Boot) and React.',
+		category: 'Java | React',
+	},
+	{
+		id: 8,
+		img: projectImg8,
 		repoUrl: 'https://github.com/eduardolpsss/junit-test-java',
 		title: 'Minefield',
 		description:
 			'Minefield made in Java using the principles of functional programming and OOP to use unit test with JUnit.',
 		category: 'Java',
-	},
-	{
-		id: 8,
-		img: projectImg8,
-		repoUrl: 'https://github.com/eduardolpsss/springboot-react',
-		title: 'Spring Boot and React app',
-		description: 'Developed using Java (Spring Boot) and React.',
-		category: 'Java | React',
 	},
 	{
 		id: 9,
@@ -116,8 +116,8 @@ export const projectsData: IProjectData[] = [
 		repoUrl: 'https://github.com/eduardolpsss/wordle-clone-app',
 		title: 'Wordle Clone',
 		description:
-			'Wordle clone made with HTML, CSS (Animate.css) and JavaScript. WordsAPI was used to request the words used in the game (contains a array with some words to play).',
-		category: 'JavaScript',
+			'Wordle clone made with HTML, CSS (Animate.css) and JS. WordsAPI was used to request the words used in the game (contains a array with some words to play).',
+		category: 'JS',
 	},
 	{
 		id: 12,

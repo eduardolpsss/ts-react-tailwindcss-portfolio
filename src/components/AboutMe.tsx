@@ -12,10 +12,14 @@ const AboutMe = () => {
 					</p>
 				</div>
 				<h3 className="font-general-regular text-secondary-dark dark:text-ternary-light text-md sm:text-xl mb-3">
-					Graduated in Computer Science from the Catholic University of Brasilia, I have experience working as a
-					front-end developer. I have developed several personal and academic projects that have given me autonomy in
-					finding and solving different problems, whether working in a team using agile methods or on personal projects.
-					I have solid knowledge and professional experience with TypeScript and React.
+					Graduated in Computer Science at the Universidade Católica de Brasília, I have experience in fullstack
+					development.
+				</h3>
+				<h3 className="font-general-regular text-secondary-dark dark:text-ternary-light text-md sm:text-xl mb-3">
+					My professional journey began in 2021, and since then I've been developing personal and academic projects.
+					These experiences have given me the autonomy to face a variety of challenges, whether working in a team or on
+					individual projects. I have solid knowledge and professional experience with TypeScript and React, as well as
+					experience in back-end development with Java and PHP.
 				</h3>
 			</div>
 
