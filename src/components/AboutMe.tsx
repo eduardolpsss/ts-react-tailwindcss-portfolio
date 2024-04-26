@@ -16,10 +16,10 @@ const AboutMe = () => {
 					development.
 				</h3>
 				<h3 className="font-general-regular text-secondary-dark dark:text-ternary-light text-md sm:text-xl mb-3">
-					My professional journey began in 2021, and since then I've been developing personal and academic projects.
+					My professional journey began in 2021 and since then I've been developing personal and academic projects.
 					These experiences have given me the autonomy to face a variety of challenges, whether working in a team or on
-					individual projects. I have solid knowledge and professional experience with TypeScript and React, as well as
-					experience in back-end development with Java and PHP.
+					individual projects. I have solid knowledge and professional experience with <b>TypeScript</b> and{' '}
+					<b>React</b>, as well as experience in back-end development with <b>Java</b> and <b>PHP</b>.
 				</h3>
 			</div>
 
